@@ -1,0 +1,21 @@
+# 依赖
+node_modules/
+
+# Vite 构建产物
+dist/
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.swp
+*.swo
+
+# 本地调试
+.cache/

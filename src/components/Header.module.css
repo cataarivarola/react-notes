@@ -1,0 +1,77 @@
+.header {
+  height: calc(var(--header-height) + env(safe-area-inset-top, 0px));
+  padding: env(safe-area-inset-top, 0) 1.5rem 0;
+  background: var(--bg-nav);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: var(--shadow);
+}
+
+.menuBtn {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+  margin-right: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--radius);
+  transition: background 0.15s ease;
+}
+
+.menuBtn:hover {
+  background: var(--react-cyan-light);
+}
+
+.menuIcon {
+  width: 20px;
+  height: 2px;
+  background: var(--text-primary);
+  border-radius: 1px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  transition: color 0.15s ease;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: var(--react-cyan);
+}
+
+.logoIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.logoIcon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.logo:hover .logoIcon svg circle {
+  fill: var(--react-cyan-hover);
+}
+.logo:hover .logoIcon svg ellipse {
+  stroke: var(--react-cyan-hover);
+}
+
+@media (min-width: 769px) {
+  .menuBtn {
+    display: none;
+  }
+}

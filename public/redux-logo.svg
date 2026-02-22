@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-hidden="true">
+  <!-- Redux 官方图标：X 符号，品牌色 #764ABC -->
+  <rect width="48" height="48" rx="10" fill="rgba(118,74,188,0.15)"/>
+  <path fill="none" stroke="#764ABC" stroke-width="4" stroke-linecap="round" d="M16 16l16 16M32 16L16 32"/>
+</svg>
